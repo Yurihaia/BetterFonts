@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "fonts",
+	"version": "0.0.1",
+
+	"name": "Better Fonts",
+	"description": "Better Font Support",
+	"authors": [
+		"Yurihaia"
+	],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"yurihaia.fonts.BetterFonts"
+		]
+	},
+	"mixins": [
+		"fonts.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.7.2",
+		"fabric": "*",
+		"minecraft": "1.15.x"
+	}
+}
